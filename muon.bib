@@ -85,4 +85,249 @@ url={https://openreview.net/forum?id=yRtgZ1K8hO}
   url = 	 {https://proceedings.mlr.press/v80/gupta18a.html},
   abstract = 	 {Preconditioned gradient methods are among the most general and powerful tools in optimization. However, preconditioning requires storing and manipulating prohibitively large matrices. We describe and analyze a new structure-aware preconditioning algorithm, called Shampoo, for stochastic optimization over tensor spaces. Shampoo maintains a set of preconditioning matrices, each of which operates on a single dimension, contracting over the remaining dimensions. We establish convergence guarantees in the stochastic convex setting, the proof of which builds upon matrix trace inequalities. Our experiments with state-of-the-art deep learning models show that Shampoo is capable of converging considerably faster than commonly used optimizers. Surprisingly, although it involves a more complex update rule, Shampoo’s runtime per step is comparable in practice to that of simple gradient methods such as SGD, AdaGrad, and Adam.}
 }
+@misc{kovalevUnderstandingGradientOrthogonalization2025,
+	title = {Understanding {Gradient} {Orthogonalization} for {Deep} {Learning} via {Non}-{Euclidean} {Trust}-{Region} {Optimization}},
+	url = {http://arxiv.org/abs/2503.12645},
+	doi = {10.48550/arXiv.2503.12645},
+	abstract = {Optimization with matrix gradient orthogonalization has recently demonstrated impressive results in the training of deep neural networks (Jordan et al., 2024; Liu et al., 2025). In this paper, we provide a theoretical analysis of this approach. In particular, we show that the orthogonalized gradient method can be seen as a first-order trust-region optimization method, where the trust-region is defined in terms of the matrix spectral norm. Motivated by this observation, we develop the stochastic non-Euclidean trust-region gradient method with momentum, which recovers the Muon optimizer (Jordan et al., 2024) as a special case, along with normalized SGD and signSGD with momentum (Cutkosky and Mehta, 2020; Sun et al., 2023). In addition, we prove state-of-the-art convergence results for the proposed algorithm in a range of scenarios, which involve arbitrary non-Euclidean norms, constrained and composite problems, and non-convex, star-convex, first- and second-order smooth functions. Finally, our theoretical findings provide an explanation for several practical observations, including the practical superiority of Muon compared to the Orthogonal-SGDM algorithm of Tuddenham et al. (2022) and the importance of weight decay in the training of large-scale language models.},
+	urldate = {2025-09-26},
+	publisher = {arXiv},
+	author = {Kovalev, Dmitry},
+	month = apr,
+	year = {2025},
+	note = {arXiv:2503.12645 [cs]},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Mathematics - Optimization and Control},
+}
+@inproceedings{
+bogachev2026lora,
+title={Lo{RA} meets Riemannion: Muon Optimizer for Parametrization-independent Low-Rank Adapters},
+author={Vladimir Bogachev and Vladimir Aletov and Alexander Molozhavenko and Denis Bobkov and Vera Soboleva and Aibek Alanov and Maxim Rakhuba},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=WtbXgc9GVA}
+}
+@inproceedings{
+therien2026muloco,
+title={MuLoCo: Muon is a Practical Inner Optimizer for DiLoCo},
+author={Benjamin Th{\'e}rien and Xiaolong Huang and Aaron Defazio and Irina Rish and Eugene Belilovsky},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=OBXBXSgwcD}
+}
+@article{
+chen2026muon,
+title={Muon Optimizes Under Spectral Norm Constraints},
+author={Lizhang Chen and Jonathan Li and qiang liu},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=Blz4hjxLwU},
+note={}
+}
+@inproceedings{
+vasudeva2026how,
+title={How Muon{\textquoteright}s Spectral Design Benefits Generalization: A Study on Imbalanced Data},
+author={Bhavya Vasudeva and Puneesh Deora and Yize Zhao and Vatsal Sharan and Christos Thrampoulidis},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=YzjS4jcfmS}
+}
+@inproceedings{LargeScalableOptimizationModularNorm2024,
+ author = {Large, Tim and Liu, Yang and Huh, Minyoung and Bahng, Hyojin and Isola, Phillip and Bernstein, Jeremy},
+ booktitle = {Advances in Neural Information Processing Systems},
+ doi = {10.52202/079017-2338},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {73501--73548},
+ publisher = {Curran Associates, Inc.},
+ title = {Scalable Optimization in the Modular Norm},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/8629b0fff229b8a27efb1422e990605f-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
+}
+@article{
+shen2026on,
+title={On the Convergence Analysis of Muon},
+author={Wei Shen and Ruichuan Huang and Minhui Huang and Cong Shen and Jiawei Zhang},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=4nH4CulGaP},
+note={J2C Certification}
+}
+@inproceedings{
+qi2026delving,
+title={Delving into Muon and Beyond: Deep Analysis and Extensions},
+author={Xianbiao Qi and Marco Chen and Jiaquan Ye and Yelin He and Rong Xiao},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=xUQ0Gw11NL}
+}
+@inproceedings{
+zheng2026spectral,
+title={Spectral Condition for \${\textbackslash}mu\$P under Width{\textendash}Depth Scaling},
+author={Chenyu Zheng and Rongzhen Wang and Xinyu Zhang and Chongxuan Li},
+booktitle={ICLR 2026 2nd Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy},
+year={2026},
+url={https://openreview.net/forum?id=HTYA4vOKbD}
+}
+@inproceedings{
+dragutinovic2026to,
+title={To Use or not to Use Muon: How Simplicity Bias in Optimizers Matters},
+author={Sara Dragutinovi{\'c} and Rajesh Ranganath},
+booktitle={Workshop on Scientific Methods for Understanding Deep Learning},
+year={2026},
+url={https://openreview.net/forum?id=GsZtgQf3IM}
+}
 
+@misc{liIntrinsicMuonSpectral2026,
+	title = {Intrinsic {Muon}: {Spectral} {Optimization} on {Riemannian} {Matrix} {Manifolds}},
+	shorttitle = {Intrinsic {Muon}},
+	url = {http://arxiv.org/abs/2605.09238},
+	doi = {10.48550/arXiv.2605.09238},
+	abstract = {Muon and related norm-constrained matrix optimizers have become central to large-scale learning problems. They are formulated as a linear maximization oracle (LMO) over an ambient matrix-norm ball in unconstrained Euclidean space. However, these do not generalize cleanly to manifold-valued parameters such as low-rank factorizations, orthogonality constraints, or symmetric positive definite (SPD) matrices. Naively restricting the Muon LMO to the tangent space (i) breaks quotient symmetries and (ii) couples the tangent-space constraint with an ambient norm bound, thereby obstructing closed-form solutions on various manifolds of interest. We resolve both issues with a single observation: every Riemannian metric canonically lifts a unitarily invariant Euclidean norm to an intrinsic norm on each tangent space, and the resulting intrinsic norm constrained LMO is symmetry preserving. Building on this, we introduce intrinsic Muon (iMuon), a unified framework that yields closed-form updates on the fixed-rank, SPD, Stiefel, and Grassmann manifolds for any unitarily invariant norm, including the spectral, Frobenius, and nuclear norms. We establish convergence guarantees for both deterministic and stochastic iMuon with rate constants that depend only on the manifold dimension. Notably, on the fixed-rank manifold this constant depends only on the rank, making the rate independent of factor conditioning and removing the runtime factor-rescaling required by prior work. Experiments on LoRA finetuning of LLMs, image classification, and subspace learning illustrate the efficacy of the proposed approach.},
+	urldate = {2026-07-28},
+	publisher = {arXiv},
+	author = {Li, Yibang and Pandey, Bihari Lal and Sah, Ravi and Han, Andi and Mostajeran, Cyrus and Jawanpuria, Pratik and Mishra, Bamdev},
+	month = may,
+	year = {2026},
+	note = {arXiv:2605.09238 [cs.LG]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence},
+	annote = {Comment: Code: https://github.com/1bang118/manifold-intrinsic-muon},
+}
+
+@misc{cesistaLoRAMuonSpectralSteepest2026,
+	title = {{LoRA}-{Muon}: {Spectral} {Steepest} {Descent} on the {Low}-{Rank} {Manifold}},
+	shorttitle = {{LoRA}-{Muon}},
+	url = {http://arxiv.org/abs/2606.12921},
+	doi = {10.48550/arXiv.2606.12921},
+	abstract = {Low-Rank Adaptation (LoRA) significantly reduces compute and memory costs for finetuning Deep Learning models but is often harder to tune than dense training: when using factor-wise optimizers such as AdamW, it is sensitive to initialization choices, its optimal learning rates transfer poorly across ranks, and it often fails to beat dense baselines. We derive LoRA-Muon by applying the Muon optimizer's spectral steepest-descent rule to the low-rank setting. Along with our split weight-decay rule, our main claim is that LoRA-Muon is a good low-rank proxy for full-rank Muon and Shampoo-family optimizers. Its optimal learning rates transfer across rank, width, depth, and factor-rescaling. In our compute-matched TinyShakespeare study, a rank-\$2\$ proxy recovers the dense best tested learning rate, and a rank-\$32\$ LoRA-Muon run attains lower mean validation loss than the dense baseline in the seed-averaged sweep. We further show that the Spectron optimizer depends on arbitrary factor scaling, so it would likely be a poor fit when finetuning starts from badly imbalanced factors, and that LoRA-RITE's simplified QR-coordinate core implements the same spectral update. LoRA-Muon computes that update without QR-decomposition and avoids storing second moments, making it more accelerator-friendly and memory-efficient.},
+	urldate = {2026-09-09},
+	publisher = {arXiv},
+	author = {Cesista, Franz Louis and Crowson, Katherine and Simal, Cédric and Biderman, Stella},
+	month = jun,
+	year = {2026},
+	note = {arXiv:2606.12921 [cs.LG]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence},
+	annote = {Comment: 20 pages, 4 figures},
+}
+
+@misc{liuMuonScalableLLM2025,
+	title = {Muon is {Scalable} for {LLM} {Training}},
+	url = {http://arxiv.org/abs/2502.16982},
+	doi = {10.48550/arXiv.2502.16982},
+	abstract = {Recently, the Muon optimizer based on matrix orthogonalization has demonstrated strong results in training small-scale language models, but the scalability to larger models has not been proven. We identify two crucial techniques for scaling up Muon: (1) adding weight decay and (2) carefully adjusting the per-parameter update scale. These techniques allow Muon to work out-of-the-box on large-scale training without the need of hyper-parameter tuning. Scaling law experiments indicate that Muon achieves \${\textbackslash}sim{\textbackslash}!2{\textbackslash}times\$ computational efficiency compared to AdamW with compute optimal training. Based on these improvements, we introduce Moonlight, a 3B/16B-parameter Mixture-of-Expert (MoE) model trained with 5.7T tokens using Muon. Our model improves the current Pareto frontier, achieving better performance with much fewer training FLOPs compared to prior models. We open-source our distributed Muon implementation that is memory optimal and communication efficient. We also release the pretrained, instruction-tuned, and intermediate checkpoints to support future research.},
+	urldate = {2026-09-09},
+	publisher = {arXiv},
+	author = {Liu, Jingyuan and Su, Jianlin and Yao, Xingcheng and Jiang, Zhejun and Lai, Guokun and Du, Yulun and Qin, Yidao and Xu, Weixin and Lu, Enzhe and Yan, Junjie and Chen, Yanru and Zheng, Huabin and Liu, Yibo and Liu, Shaowei and Yin, Bohong and He, Weiran and Zhu, Han and Wang, Yuzhi and Wang, Jianzhou and Dong, Mengnan and Zhang, Zheng and Kang, Yongsheng and Zhang, Hao and Xu, Xinran and Zhang, Yutao and Wu, Yuxin and Zhou, Xinyu and Yang, Zhilin},
+	month = feb,
+	year = {2025},
+	note = {arXiv:2502.16982 [cs.LG]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@misc{magakyanSpectralScalingLaws2026,
+	title = {Spectral {Scaling} {Laws} of {Muon}},
+	url = {http://arxiv.org/abs/2606.04058},
+	doi = {10.48550/arXiv.2606.04058},
+	abstract = {Orthonormalized update rules have rapidly become a leading choice of optimizer for training large language models, with recent open-source state-of-the-art models adopting Muon. To keep these updates tractable, Muon performs the orthonormalization with the Newton--Schulz (NS) iteration. Since NS is only approximate, directions with small singular values fail to be orthonormalized. In Muon, NS is applied to the momentum matrix at every step, yet little is known about how the singular value spectrum of these momentum matrices behaves during training, or how that behavior changes with model size. We present the first systematic study of this question. Tracking singular value quantiles of the momentum buffer across layers in models ranging from 77M to 2.8B parameters, we observe a consistent picture: after a short burn-in, the quantiles stabilize at a value determined by the layer type and model size. These stabilization values follow remarkably clean power laws in model size, with layer-dependent exponents. Layers up to mid-late depth scale very mildly with model size \$M\$ (around \$M{\textasciicircum}\{-0.25\}\$), so the standard 5-step NS configuration used at academic scale will continue to orthonormalize them at much larger scales. Some of the late layers, however, scale much more aggressively (up to \$M{\textasciicircum}\{-0.96\}\$) and will fall into the NS failure regime at frontier scale unless one uses more NS iterations or better-tuned coefficients. NS iterations are computationally expensive at scale; our laws give practitioners a principled, layer-aware recipe for choosing the minimum NS configuration that still orthonormalizes the directions that matter -- avoiding unnecessary computation without sacrificing update quality.},
+	urldate = {2026-09-09},
+	publisher = {arXiv},
+	author = {Magakyan, Gagik and Parrilo, Pablo and Ozdaglar, Asuman},
+	month = jun,
+	year = {2026},
+	note = {arXiv:2606.04058 [cs.LG]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence},
+}
+
+@misc{CesistaMuonSurvey2025,
+	title = {Muon and a {Selective} {Survey} on {Steepest} {Descent} in {Riemannian} and {Non}-{Riemannian} {Manifold}},
+	url = {https://leloykun.github.io/ponder/steepest-descent-non-riemannian/},
+	author = {Cesista, Franz Louis},
+	month = apr,
+	year = {2025},
+}
+
+@misc{CesistaSteepestDescentStiefel2025,
+	title = {Heuristic {Solutions} for {Steepest} {Descent} on the {Stiefel} {Manifold}},
+	url = {https://leloykun.github.io/ponder/steepest-descent-stiefel/},
+	author = {Cesista, Franz Louis},
+	month = jul,
+	year = {2025},
+}
+
+@misc{CesistaSteepestDescentFinsler2025,
+	title = {Steepest {Descent} on {Finsler}-{Structured} ({Matrix}) {Manifolds}},
+	url = {https://leloykun.github.io/ponder/steepest-descent-finsler/},
+	author = {Cesista, Franz Louis},
+	month = aug,
+	year = {2025},
+}
+
+@misc{CesistaLoRAMuonOGD2026,
+	title = {{LoRA}-{Muon}-{OGD}: {Spectral} {Orthogonal} {Gradient} {Projection} on the {Low}-{Rank} {Manifold} for {LLM} {Continual} {Learning}},
+	url = {https://leloykun.github.io/ponder/lora-muon-ogd/},
+	author = {Cesista, Franz Louis},
+	month = jun,
+	year = {2025},
+}
+
+@misc{CesistaSteepestDescentBirkhoff2026,
+	title = {Steepest {Descent} on the {Birkhoff} {Polytope} {Equipped} with the {Spectral} {Norm}},
+	url = {https://leloykun.github.io/ponder/steepest-descent-doubly-stochastic/},
+	author = {Cesista, Franz Louis},
+	month = jan,
+	year = {2026},
+}
+
+@misc{CesistaSteepestDescentAffineConic2026,
+	title = {Steepest {Descent} on {Affine}-{Conic} {Representable} {Manifolds} with {Boundary} via {Dual} {Ascent}},
+	url = {https://leloykun.github.io/ponder/steepest-descent-affine-conic/},
+	author = {Cesista, Franz Louis},
+}
+
+@misc{KeigwinCompositionalSteepestDescent2026,
+	title = {Towards {Compositional} {Steepest} {Descent}},
+	url = {https://blog.tilderesearch.com/blog/compositional-muon},
+	author = {Keigwin, Ben and Yang, Li and Pai, Dhruv and Zhang, Ashley and DeWulf, Alec},
+	month = jun,
+	year = {2026},
+}
+
+@misc{liNorMuonMakingMuon2025,
+	title = {{NorMuon}: {Making} {Muon} more efficient and scalable},
+	shorttitle = {{NorMuon}},
+	url = {http://arxiv.org/abs/2510.05491},
+	doi = {10.48550/arXiv.2510.05491},
+	abstract = {The choice of optimizer significantly impacts the training efficiency and computational costs of large language models (LLMs). Recently, the Muon optimizer has demonstrated promising results by orthogonalizing parameter updates, improving optimization geometry through better conditioning. Despite Muon's emergence as a candidate successor to Adam, the potential for jointly leveraging their strengths has not been systematically explored. In this work, we bridge this gap by proposing NorMuon (Neuron-wise Normalized Muon), an optimizer that synergistically combines orthogonalization with neuron-level adaptive learning rates. Our analysis reveals that while Muon effectively reduces condition numbers, the resulting updates exhibit highly non-uniform neuron norms, causing certain neurons to dominate the optimization process. NorMuon addresses this imbalance by maintaining second-order momentum statistics for each neuron and applying row-wise normalization after orthogonalization, ensuring balanced parameter utilization while preserving Muon's conditioning benefits. To enable practical deployment at scale, we develop an efficient distributed implementation under the FSDP2 framework that strategically distributes orthogonalization computations across devices. Experiments across multiple model scales demonstrate that NorMuon consistently outperforms both Adam and Muon, achieving 21.74\% better training efficiency than Adam and 11.31\% improvement over Muon on 1.1 B pretraining setting, while maintaining a comparable memory footprint to Muon. Our findings suggest that orthogonalization and adaptive learning rates are complementary rather than competing approaches, opening new avenues for optimizer design in large-scale deep learning.},
+	urldate = {2026-09-09},
+	publisher = {arXiv},
+	author = {Li, Zichong and Liu, Liming and Liang, Chen and Chen, Weizhu and Zhao, Tuo},
+	month = oct,
+	year = {2025},
+	note = {arXiv:2510.05491 [cs.LG]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language},
+}
+
+@misc{zhangMousseRectifyingGeometry2026,
+	title = {Mousse: {Rectifying} the {Geometry} of {Muon} with {Curvature}-{Aware} {Preconditioning}},
+	shorttitle = {Mousse},
+	url = {http://arxiv.org/abs/2603.09697},
+	doi = {10.48550/arXiv.2603.09697},
+	abstract = {Recent advances in spectral optimization, notably Muon, have demonstrated that constraining update steps to the Stiefel manifold can significantly accelerate training and improve generalization. However, Muon implicitly assumes an isotropic optimization landscape, enforcing a uniform spectral update norm across all eigen-directions. We argue that this "egalitarian" constraint is suboptimal for Deep Neural Networks, where the curvature spectrum is known to be highly heavy-tailed and ill-conditioned. In such landscapes, Muon risks amplifying instabilities in high-curvature directions while limiting necessary progress in flat directions. In this work, we propose {\textbackslash}textbf\{Mousse\} ({\textbackslash}textbf\{M\}uon {\textbackslash}textbf\{O\}ptimization {\textbackslash}textbf\{U\}tilizing {\textbackslash}textbf\{S\}hampoo's {\textbackslash}textbf\{S\}tructural {\textbackslash}textbf\{E\}stimation), a novel optimizer that reconciles the structural stability of spectral methods with the geometric adaptivity of second-order preconditioning. Instead of applying Newton-Schulz orthogonalization directly to the momentum matrix, Mousse operates in a whitened coordinate system induced by Kronecker-factored statistics (derived from Shampoo). Mathematically, we formulate Mousse as the solution to a spectral steepest descent problem constrained by an anisotropic trust region, where the optimal update is derived via the polar decomposition of the whitened gradient. Empirical results across language models ranging from 160M to 800M parameters demonstrate that Mousse consistently outperforms Muon, achieving around \${\textbackslash}sim\$12{\textbackslash}\% reduction in training steps with negligible computational overhead.},
+	urldate = {2026-09-09},
+	publisher = {arXiv},
+	author = {Zhang, Yechen and Xing, Shuhao and Huang, Junhao and Lv, Kai and Zhou, Yunhua and Qiu, Xipeng and Guo, Qipeng and Chen, Kai},
+	month = apr,
+	year = {2026},
+	note = {arXiv:2603.09697 [cs.LG]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+	annote = {Comment: 17 pages, 10 figures},
+}
+
+@misc{DewulfAurora2026,
+	title = {Aurora: {A} {Leverage}-{Aware} {Optimizer} for {Rectangular} {Matrices}},
+	url = {https://blog.tilderesearch.com/blog/aurora},
+	author = {DeWulf, Alec and Pai, Dhruv and Yang, Li and Zhang, Ashley and Keigwin, Ben},
+	month = may,
+	year = {2026},
+}
