@@ -127,7 +127,7 @@ A collection of references to the literature around the Muon optimizer. A bibtex
 - authors: J. Su
 - type: blog post
 - url: https://kexue.fm/archives/11221
-- english translation: https://kexue-tl.pages.dev/11221-Steepest-Descent-on-Manifolds-3.-Muon-Stiefel
+- english translation: https://datasets.osmarks.net/kexue/site/11221-Steepest-Descent-on-Manifolds-3.-Muon-Stiefel.html
 
 #### *Steepest Descent on Finsler-Structured (Matrix) Manifolds* (2025)
 - authors: F. L. Cesista
@@ -138,6 +138,11 @@ A collection of references to the literature around the Muon optimizer. A bibtex
 - authors: J. Bernstein
 - type: blog post
 - url: https://thinkingmachines.ai/blog/modular-manifolds/
+
+#### *A Faster Manifold Muon with ADMM* (2025)
+-authors: S. D. Buchanan
+- type: blog post
+- url: https://sdbuchanan.com/blog/manifold-muon/
 
 #### *Steepest Descent on the Birkhoff Polytope Equipped with the Spectral Norm* (2026)
 - authors: F. L. Cesista
@@ -174,7 +179,7 @@ A collection of references to the literature around the Muon optimizer. A bibtex
 - type: blog post
 - url: https://leloykun.github.io/ponder/lora-muon-ogd/
 
-### Computation of msign
+### Computation of msign and applcations
 
 #### *Functions of Matrices: Theory and Computation* (2008)
 - authors: N. J. Higham
@@ -190,6 +195,43 @@ A collection of references to the literature around the Muon optimizer. A bibtex
 - authors: E. Grishina, M. Smirnov, M. Rakhuba
 - type: preprint
 - url: https://arxiv.org/abs/2506.10935
+
+#### *Computing Singular Value Clipping (mclip) via msign (Part 1)* (2025)
+- author: J. Su
+- type: blog post
+- url: https://kexue.fm/archives/11006
+- english translation: https://datasets.osmarks.net/kexue/site/11006-Computing-Singular-Value-Clipping-mclip-via-msign-Part-1.html
+
+#### *The Derivative of the msign Operator* (2025)
+- author: J. Su
+- type: blog post
+- url: https://kexue.fm/archives/11025
+- english translation: https://datasets.osmarks.net/kexue/site/11025-The-Derivative-of-the-msign-Operator.html
+
+#### *What Can the Matrix Sign Function mcsgn Calculate?* (2025)
+- author: J. su
+- type: blog post
+- url: https://kexue.fm/archives/11056
+- english translation: https://datasets.osmarks.net/kexue/site/11056-What-Can-the-Matrix-Sign-Function-mcsgn-Calculate.html
+
+#### *Calculating Singular Value Clipping (mclip) via msign (Part 2)* (2025)
+- author: J. Su
+- type: blog post
+- url: https://kexue.fm/archives/11059
+- english translation: https://datasets.osmarks.net/kexue/site/11059-Calculating-Singular-Value-Clipping-mclip-via-msign-Part-2.html
+
+#### *Efficient Computation of Matrix Square Roots and Inverse Square Roots* (2025)
+- author: J. Su
+- type: blog post
+- url: https://kexue.fm/archives/11158
+- english translation: https://datasets.osmarks.net/kexue/site/11158-Efficient-Computation-of-Matrix-Square-Roots-and-Inverse-Square-Roots.html
+
+#### *Efficient Computation of Matrix $r$-th Roots and Inverse $r$-th Roots* (2025)
+- author: J. Su
+- type: blog post
+- url: https://kexue.fm/archives/11175
+- english translation: https://datasets.osmarks.net/kexue/site/11175-Efficient-Computation-of-Matrix-r-th-Roots-and-Inverse-r-th-Roots.html
+
 
 
 ### Other optimizers
